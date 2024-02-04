@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+
+    overflow: hidden;
+}
+
+.home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: seagreen;
+}
+.cover{
+    width: 70%;
+    height: 70%;
+background: white;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 40px;
+}
+.cover h1{
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 600;
+    color: rgb(61, 136, 61);
+    cursor: pointer;
+}
+.cover button{
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid rgb(93, 180, 93);
+    font-weight: 500;
+    transition: all ease-in-out .5s;
+    background: rgb(86, 141, 86);
+}
+.cover button:hover{
+background: white;
+color: rgb(87, 139, 87);
+}
+.cover button:active{
+    scale: .95;
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background: rgb(180, 226, 180);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease .5s;
+}
+
+.panel{
+    width: 70%;
+    height: 80%;
+    border-radius: 10px;
+    background: white;
+    overflow: hidden;
+}
+.panelHead{
+    width: 100%;
+    height: 110px;
+    background: rgb(83, 156, 83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+.elem,.elem1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: aliceblue;
+}
+.elem h4,.elem1 h4{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.box ,.box1{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(68, 121, 68);
+    background: white;
+}
+.panelBody{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    transition: all ease .5s;
+}
+.panelBody h1{
+    transition: all ease .5s;
+    font-size: 50px;
+    color: #87b778;
+    /* color: #FFBFBF; */
+}
+.panelBody button{
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid rgb(93, 180, 93);
+    font-weight: 500;
+    transition: all ease-in-out .5s;
+    background: rgb(86, 141, 86);
+}
+.panelBody button:hover{
+background: white;
+color: rgb(87, 139, 87);
+}
+.panelBody button:active{
+    scale: .95;
+    cursor: pointer;
+}
+.panelBody i{
+    font-weight: 900;
+}
+.bubble{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(72, 126, 72);
+    color: white;
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    transition: all ease .1s;
+   
+}
+.bubble:active{
+    scale: .92;
+}
+.bubble:hover{
+    background: rgb(50, 83, 50);
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+}
+.elem1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(78, 173, 84);
+}
+.elem1   h4{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.box1{
+    background: rgb(132, 210, 132);
+    color: white;
+}
