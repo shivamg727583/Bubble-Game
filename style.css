@@ -184,3 +184,69 @@ color: rgb(87, 139, 87);
     background: rgb(132, 210, 132);
     color: white;
 }
+
+/* ////////////////// responsiveness///// */
+
+@media screen and (width <=650px) {
+    
+.home{
+    width: 100%;
+    height: 100%;
+
+}
+.cover h1{
+font-size: 50px;
+font-weight: 700;
+}
+
+.cover button{
+    font-size: 16px;
+    padding: 7px 16px;
+}
+
+.main{
+    width: 100%;
+height: 100%;
+}
+.panel{
+    width: 70%;
+    height: 80%;
+}
+.panelHead{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    gap: 20px;
+}
+.elem h4{
+    font-size: 18px;
+}
+.box{
+    font-size: 16px;
+    padding: 7px 16px;
+}
+.panelBody{
+    width: 100%;
+    height: calc(100% - 80px);
+}
+.panelBody h1{
+    font-size: 30px;
+}
+.panelBody button{
+    font-size: 16px;
+}
+.elem1 h4{
+    font-size: 20px;
+}
+.box1{
+    font-size: 16px;
+    padding: 8px 17px;
+}
+
+
+
+
+
+
+
+}

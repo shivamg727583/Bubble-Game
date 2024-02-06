@@ -58,13 +58,6 @@ panelBody.addEventListener("click",function(dets){
     newHit();
    }
    
-//    var replayBtn = dets.target;
-   
-// // console.log(dets.target)
-
-// replayBtn.addEventListener("click",function(){
-//     console.log("click")
-// })   
 
 })
 
